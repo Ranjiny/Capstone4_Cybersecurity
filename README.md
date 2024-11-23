@@ -32,6 +32,9 @@ Feature Importance: The best model is picked and retrained with the important fe
 Pickling: The trained model is stored in pickle format.
 
 •	Recommendations for Deployment:
+
 SOC Integration: Integrate the model with SOC tools to automate triage and provide context-rich recommendations for analysts.
+
 Handling Misclassifications: Implement a feedback loop for analysts to correct errors and use confidence scores to flag low-confidence predictions for human review.
+
 Note: As the training dataset in large , ensure to train the models in separate notebooks.
